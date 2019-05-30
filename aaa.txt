@@ -1,0 +1,86 @@
+Zippo RS
+
+1. Uvod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Uvod
+Zippo RS, web aplikacija troslojne arhitektuore kojoj je namena da bude kao online 
+prodavnica za zippo upaljace.
+Prodavnica ima 7 stranica: Home, Store, Contact, About, Login, Register, Profile
+* Home  je pocetna stranica na kojoj su prikazani neki od upaljaca koji se naizmenicno prikazuju.
+* Store  je stranica gde se nalazi svi upaljaci koji se izvlace iz baze podataka, i prikazuju za njihovom cenom i na njoj se vrsi glavna radnja sajta. Takodje se na stranici nalazi i korpa sa odabranim proizvodima, i pored nje ukuona cena odabranih proizvoda.
+* Contact stranica, gde se moze stupiti u kontakt sa prodavcem.
+* About stranica sa kratkom istorijom zippo upaljaca.
+* Login  stranica gde se korisnik moze ulogovati.
+* Register  stranica gde se korisinik moze registrovati.
+* Profile  stranica koja se prikazuje kada se korisnik uloguje, na kojoj se pojavljuju odredjene komande za to korisnika.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Opis
+
+Zippo RS aplikacija nije u potpunosti zavrsena, trabaju biti dodate seldece funkcionalnosti:
+* Zabrana korisniku da se uloguju ako je banovan.
+* Komentari za odredjene proizvode.
+* Prikaz Adminu/Moderatoru svih uspelih prodaja na njihovim Profile stranicama.
+* Prikaz Adminu/Moderator poslate poruke koju je korisnik poslao preko Contact stranice.
+* Vise korisnickih komanda.
+* Uklanjanje proizvoda iz korpe.
+* Kao i sam izgled sajta.
+- Home  stranici se upaljaci menjanju preko Javascript funkcije, koja vadi slike upaljaca iz img/zippo/nazivSlike.png.
+- Store klikom na sliku nekog proizvoda, otvara se stranica sa dodatnim infomacija o proizvodu.  ako korisnik zeli da kupi neki proizvod, mora se ulogovati preko  Login stranice. Nakon toga ispod svakog upaljaca se pojavljajue dugme za dodavanje u korpu. Klikom na dugme Add to cart se dodaje proizvod u korpu, i pored korpe se nalazi ukupna cena odabranih proizvoda. Klikom na korpu se otvara nova stranica sa odabranim proizvodima, i na njoj su ponudjenje dve opcije,  Buy i Cancel klikom na Cancel korisnikova korpa se prazni i moze odabrati nove proizvode. Klikom na Buy otvara se nova stranica sa podacima o kupovini i kupovina se upisuje u bazu podataka. Klikom na dugme Home  korisnik se vraca na pocetnu stranicu.
+
+- Profile Kada se korisnik uloguje, pojavljuje se stranica Profile.  Na njoj se nalaze sve komande koje korisnik moze da koristi. Korisnici su podeljenu u grupe i drugaciji set komanda:
+
+o Admin (Change email, Change username, Change address, Add user, Remove user, Ban user, Edit user email, Edit user username, Edit user address, Add product, Edit product, Remove product)
+o Moderator (Change email, Change username, Change address, Add product, Edit product, Remove product)
+o Member (Change email, Change username, Change address)
+
+
+
+
+
+
+
+
+
+
+
+Aleksandar Jovanov 2017200014 SII
+
+
+
+2
+
+
+
+
+
+
